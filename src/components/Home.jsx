@@ -33,10 +33,10 @@ const Home = () => {
                 </Col>
             </Row>
             <div className="home-heading-container">
-                <Typography.Title level={2} className="home-title">
+                <Typography.Title level={3} className="home-title">
                     Top 10 Crypto Currencies in the World
                 </Typography.Title>
-                <Typography.Title level={3} className="show-more">
+                <Typography.Title level={4} className="show-more">
                     <Link to="/cryptocurrencies">
                         Show More
                     </Link>
@@ -44,10 +44,10 @@ const Home = () => {
             </div>
             <Cryptocurrencies simplified />
             <div className="home-heading-container">
-                <Typography.Title level={2} className="home-title">
+                <Typography.Title level={3} className="home-title">
                     Latest Crypto News
                 </Typography.Title>
-                <Typography.Title level={3} className="show-more">
+                <Typography.Title level={4} className="show-more">
                     <Link to="/news">
                         Show More
                     </Link>
