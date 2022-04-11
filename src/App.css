@@ -353,7 +353,11 @@ width: 70%;
 }
 .search-crypto{
     margin: 20px auto 30px auto;
-    width: 250px;
+    width: 400px;
+}
+.search-crypto Input{
+    padding: 10px 20px;
+    border-radius: 50px;
 }
 .crypto-card-container{
     min-height: 65vh !important;
