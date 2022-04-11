@@ -369,8 +369,8 @@ width: 70%;
     width:35px;
 }
 .select-timeperiod{
-    width: 200px !important;
-    margin-top: 20px !important;
+    width: 300px !important;
+    margin: 20px 0 !important;
 }
 
 .footer {
@@ -379,4 +379,13 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
+}
+.chart-placeholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 230);
 }
